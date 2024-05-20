@@ -51,7 +51,7 @@ class GoogleSearchConsoleTestApi extends Command
         $site = $this->argument('site') ?? null;
 
         $this->listAllProperties($site);
-//        $this->searchAnalytics('https://www.metaltampos.com.br', '2024-04-01', '2024-04-30');
+//        $this->searchAnalytics('https://www.teste.com.br', '2024-04-01', '2024-04-30');
 
     }
 
