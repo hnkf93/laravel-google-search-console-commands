@@ -1,23 +1,75 @@
-/vendor/
-node_modules/
+# Laravel & PHP
+/vendor
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/storage/app/public
+/storage/framework/cache/data
+/storage/logs
+/storage/framework/sessions
+/storage/framework/testing
+/storage/framework/views
+/bootstrap/cache
+
+# Environment Variables
+/.env
+/.env.backup
+/.env.local
+/.env.development
+/.env.staging
+/.env.production
+/.env.test
+/.env.example
+
+# IDEs and Editors
+/.idea
+/.vscode
+*.swp
+*.swo
+*.sublime-project
+*.sublime-workspace
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Composer
+/composer.lock
+
+# Node
+yarn.lock
 npm-debug.log
 yarn-error.log
+.pnpm-debug.log
+.pnpm-debug.log.*
+yarn-debug.log
+yarn-debug.log.*
+/package-lock.json
 
-# Laravel 4 specific
-bootstrap/compiled.php
-app/storage/
+# Laravel Telescope
+/telescope
 
-# Laravel 5 & Lumen specific
-public/storage
-public/hot
+# Laravel Horizon
+/horizon
 
-# Laravel 5 & Lumen specific with changed public path
-public_html/storage
-public_html/hot
-
-storage/*.key
-.env
-Homestead.yaml
-Homestead.json
-/.vagrant
+# PHPUnit
 .phpunit.result.cache
+
+# Nginx or Apache specific
+/public/.htaccess
+
+# Vim swap files
+*.swp
+*.swo
+
+# MacOS
+*.DS_Store
+
+# Temporary files
+*.log
+*.temp
+*.tmp
+
+# Config files
+/config/*.json
