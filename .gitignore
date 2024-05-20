@@ -20,7 +20,6 @@
 /.env.staging
 /.env.production
 /.env.test
-/.env.example
 
 # IDEs and Editors
 /.idea
